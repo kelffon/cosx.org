@@ -195,7 +195,7 @@ y_n = \beta_0 + \beta_1x_{1n} + \cdots + \beta_px_{pn} .
 
 用数学的语言描述，也就是说误差分布的密度函数 `\(f(x)\)`关于0对称分布，概率密度随 `\(|x|\)` 增加而减小，这两个定性的描述都很符合常识。
 
-许多天文学家和数学家开始了寻找误差分布曲线的尝试。 天文学家辛普森(Thomas Simpson, 1710-1761) 先走出了有意义的一步。设真值为 `\(\theta$, $x_1, \cdots, x_n\)` 为n次测量值, 每次测量的误差为`\( e_i = x_i – \theta \)`，若用算术平均 `\(\overline{x} = \frac{\sum_{i=1}^n x_i}{n} \)`去估计`\(\theta\)`, 其误差为 `\(\overline{e} = \frac{\sum_{i=1}^n e_i}{n} \)`。 辛普森证明了, 对于如下的一个概率分布，
+许多天文学家和数学家开始了寻找误差分布曲线的尝试。 天文学家辛普森(Thomas Simpson, 1710-1761) 先走出了有意义的一步。设真值为 `\(\theta, x_1, \cdots, x_n\)` 为n次测量值, 每次测量的误差为`\( e_i = x_i – \theta \)`，若用算术平均 `\(\overline{x} = \frac{\sum_{i=1}^n x_i}{n} \)`去估计`\(\theta\)`, 其误差为 `\(\overline{e} = \frac{\sum_{i=1}^n e_i}{n} \)`。 辛普森证明了, 对于如下的一个概率分布，
 
 ![simpson-error-curve](https://uploads.cosx.org/2013/01/simpson-error-curve.jpg)
 
